@@ -1,0 +1,223 @@
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Altere a ordem das linhas */
+    grid-template-areas: "header" "main" "footer"; /* Adicione uma área para o cabeçalho */
+    overflow-x: hidden;
+    background: #F5F7FA;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.caip-let{
+    width: 500px;
+    margin-top: 5px;
+}
+
+.carrinho{
+    position: absolute;
+    top: 25px;
+    left: 91%;
+    right: 80px; 
+    width: 50px;
+}
+
+.login {
+    position: absolute;
+    top: 15px; 
+    left: 95%;
+    right: 100px; 
+    width: 70px;
+}
+
+.login img:hover {
+    transform: scale(1.1); /
+  }
+
+.peca{
+    position: absolute;
+    top: 0px;
+    left: 82%; 
+    right: 300px; 
+    width: 260px;
+}
+
+.logo {
+    position: absolute;
+    top: 50px; 
+    left: 25px;
+    height: 200px;
+    width: 200px;
+}
+
+nav {
+    text-align: center;
+    padding: 0%;
+    height: 0%;
+    margin-top: -25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 0px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #1F1204;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 35px; 
+    font-family: Segoe UI Semibold;
+}
+
+li a:hover {
+    color: #AF630C;
+    text-decoration: none;
+}
+
+.carousel{
+    /* position: absolute; */
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 1%;
+}
+
+.carousel-control-prev{
+    margin-top: -50%;
+    left: 50%;
+}
+.carousel-control-next{
+    margin-top: -50%;
+    right: 50%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #884901; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+}
+
+
+.patrocinadores{
+    margin-top: 8%;
+    margin-bottom: 50%;
+}
+
+.ptr{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border: 5px solid #e59e4c;
+    border-radius: 100%;
+}
+
+.footer {
+    z-index: 1;
+    --footer-background:#ffc42e;
+    display:grid;
+    position: relative;
+    grid-area: footer;
+    min-height:12rem;
+    background: var(--footer-background);
+    .bubbles {
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        height:1rem;
+        margin-left: -500px;
+        background:var(--footer-background);
+        filter:url("#blob");
+        .bubble {
+            position: absolute;
+            left:var(--position, 50%);
+            background:var(--footer-background);
+            border-radius:100%;
+            animation:bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s),
+                bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+            transform:translate(-50%, 100%);
+        }
+    }
+    .content {
+        z-index: 2;
+        display:grid;
+        grid-template-columns: 1fr auto;
+        grid-gap: 4rem;
+        padding:2rem;
+        background:var(--footer-background);
+        a, p {
+            color:#F5F7FA;
+            text-decoration:none;
+        }
+        b {
+            color:white;
+        }
+        p {
+            margin:0;
+            font-size:.75rem;
+        }
+        >div {
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            >div {
+                margin:0.25rem 0;
+                >* {
+                    margin-right:.5rem;
+                }
+            }
+            .image {
+                align-self: center;
+                width:4rem;
+                height:4rem;
+                margin:0.25rem 0;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+}
+
+@keyframes bubble-size {
+0%, 75% {
+    width:var(--size, 4rem);
+    height:var(--size, 4rem);
+}
+100% {
+    width:0rem;
+    height:0rem;
+}
+}
+@keyframes bubble-move {
+0% {
+    bottom:-4rem;
+}
+100% {
+    bottom:var(--distance, 10rem);
+}
+}
+
+
+cor{
+    color: #AF630C;
+    color: #884901;
+    color: #e59e4c;
+    color: #3D270D;
+    color: #301E09;
+    color: #1F1204;
+    color: #FBD13E;
+    color: #000000;
+}

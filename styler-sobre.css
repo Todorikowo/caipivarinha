@@ -1,0 +1,55 @@
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Altere a ordem das linhas */
+    grid-template-areas: "header" "main" "footer"; /* Adicione uma área para o cabeçalho */
+    overflow-x: hidden;
+    background: #F5F7FA;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.caip-let{
+    width: 500px;
+    margin-top: 5px;
+}
+
+.carrinho{
+    position: absolute;
+    top: 25px;
+    left: 91%;
+    right: 80px; 
+    width: 50px;
+}
+
+.login {
+    position: absolute;
+    top: 15px; 
+    left: 95%;
+    right: 100px; 
+    width: 70px;
+}
+
+.peca{
+    position: absolute;
+    top: 0px;
+    left: 82%; 
+    right: 300px; 
+    width: 260px;
+}
+
+.logo {
+    position: absolute;
+    top: 50px; 
+    left: 25px;
+    height: 200px;
+    width: 200px;
+}
+
+.menu ul {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}

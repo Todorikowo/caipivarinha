@@ -1,0 +1,50 @@
+h1{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #3D270D;
+    font-family: Arial Rounded MT;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 800px;
+    justify-content: center;
+    margin-left: 50px; 
+    color: #884901;
+    /* font-family:'Albertus MT Lt' */
+}
+
+h3{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #884901;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+h4{
+    font-size: 40px;
+    font-family: Cooper;
+    color: #3D270D;
+    margin-top: -290px;
+    margin-left: 700px;
+}
+
+.caip{
+    margin-top: -280px;
+    margin-left: 70%;
+}
+
+.capa{
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+.apontando{
+    margin-top: -200px;
+    margin-left: 500px;
+}
