@@ -8,7 +8,7 @@ function Pay(){
             <div className="container-pay">
                 <h1>Obrigado pela sua compra!</h1>
                 <img src={Code} alt="logo"/>
-                <h2>Conclua o pagamento por pix escaneando o QRcode abaixo!</h2>
+                <h1>Chave PIX: 20751464708</h1>
             </div>
         </div>
     )

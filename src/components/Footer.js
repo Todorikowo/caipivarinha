@@ -10,11 +10,13 @@ function Footer(){
         <div className="footer">
             {/* botão redes sociais */}
             <div className="socialMedia">
-                <Link to="https://instagram.com/smstudiosss"><SlSocialInstagram /></Link>
-                <Link to="https://facebook.com/profile.php?id=61559520592319"><SlSocialFacebook /></Link>
+                <Link to="https://www.instagram.com/caipivarinha/"><SlSocialInstagram /></Link>
+                <Link to="https://www.facebook.com/profile.php?id=61568704972943"><SlSocialFacebook /></Link>
             </div>
             {/* copyright */}
-            <p> &copy; Caipivarinha 2024</p>
+            <p> &copy; Caipivarinha 2024
+                Entre em contato com: caipivarinhabebidas@gmail.com
+            </p>
         </div>
     )
 }
