@@ -10,7 +10,7 @@ function Footer(){
         <div className="footer">
             {/* botão redes sociais */}
             <div className="socialMedia">
-                <Link to="https://www.instagram.com/caipivarinha/"><SlSocialInstagram /></Link>
+                <Link to="https://www.instagram.com/adegacaipivarinha/"><SlSocialInstagram /></Link>
                 <Link to="https://www.facebook.com/profile.php?id=61568704972943"><SlSocialFacebook /></Link>
             </div>
             {/* copyright */}
